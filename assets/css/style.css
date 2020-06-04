@@ -1,3 +1,23 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+h2 {
+    font-family: Arial;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    columns: #555555;
+}
+
+#logo {
+    float: left;
+    font-size: 200%;
 }
