@@ -6,12 +6,12 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
     color: #777777
 }
 
 h2 {
-    font-family: Arial;
+    font-family: Helvetica, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     columns: #555555;
@@ -166,4 +166,22 @@ hr {
     height: 100%;
     border-radius: 50%;
 
+}
+
+#times {
+    background: url("http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/dublin-city.png") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0,0,0, .6);
+    width: 19%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    margin: 2px;
 }
